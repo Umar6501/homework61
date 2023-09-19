@@ -71,3 +71,9 @@
   font-weight: 700;
   line-height: 40px; /* 166.667% */
 }
+
+.hero3 .container .hero3-content {
+  @media (max-width: 302px) {
+    flex-direction: column;
+  }
+}

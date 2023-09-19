@@ -103,3 +103,9 @@
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.2px;
 }
+
+.hero5 .container .hero5-content {
+  @media (max-width: 302px) {
+    flex-direction: column;
+  }
+}

@@ -10,6 +10,11 @@ function Header() {
             <img src="assets/logo.png" alt="" />
             <p>Product</p>
           </a>
+          <div className="menu">
+            <a href="#">
+              <img src="assets/bx-menu.svg" alt="" />
+            </a>
+          </div>
           <nav>
             <a href="#" className="navs">
               Product

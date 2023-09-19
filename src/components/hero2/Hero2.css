@@ -80,3 +80,14 @@
   background: #02897a;
   text-decoration: none;
 }
+
+.hero2 .container .hero2-content {
+  @media (max-width: 302px) {
+    flex-direction: column;
+  }
+}
+.bj {
+  @media (max-width: 302px) {
+    display: none;
+  }
+}

@@ -57,3 +57,9 @@
   border-radius: 8px;
   background: #fff;
 }
+
+.hero6 .container .hero6-content {
+  @media (max-width: 302px) {
+    flex-direction: column;
+  }
+}

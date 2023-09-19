@@ -13,3 +13,10 @@
 body {
   font-family: sans-serif;
 }
+
+@media (max-width: 302px) {
+  .container {
+    width: 302px;
+    margin: 0 auto;
+  }
+}

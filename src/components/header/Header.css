@@ -105,7 +105,21 @@ header .container .header-content nav .navs {
 }
 
 @media (max-width: 302px) {
-  header {
+  header .container .header-content nav {
+    display: none;
+  }
+  .menu a img {
+    display: flex;
+    /* padding: 30px; */
+    height: 50px;
+    width: 332px;
+  }
+  header .container .header-content .logo p {
+    display: none;
+  }
+}
+@media (min-width: 302px) {
+  .menu {
     display: none;
   }
 }

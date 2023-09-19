@@ -63,3 +63,49 @@
   font-weight: 700;
   line-height: normal;
 }
+
+.hero-content {
+  @media (max-width: 302px) {
+    flex-direction: column;
+  }
+}
+.hero-content h1 {
+  @media (max-width: 302px) {
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+    margin-bottom: 20px;
+    width: 281px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+.hero-content h4 {
+  @media (max-width: 302px) {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 254px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+.gg {
+  @media (max-width: 302px) {
+    flex-direction: column;
+    margin-top: 30px;
+    margin: 37px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.hero .container .hero-content .right-box img {
+  height: 248px;
+  width: 237px;
+}
