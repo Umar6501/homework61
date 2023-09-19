@@ -34,7 +34,7 @@ function Hero2() {
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="1470"
+        width="1520"
         height="390"
         viewBox="0 0 1400 390"
         fill="none"
