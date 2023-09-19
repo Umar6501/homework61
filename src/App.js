@@ -1,5 +1,4 @@
 import "./App.css";
-import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Hero2 from "./components/hero2/Hero2";
