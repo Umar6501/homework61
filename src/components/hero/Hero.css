@@ -106,6 +106,8 @@
 }
 
 .hero .container .hero-content .right-box img {
-  height: 248px;
-  width: 237px;
+  @media (max-width: 302px) {
+    height: 248px;
+    width: 237px;
+  }
 }

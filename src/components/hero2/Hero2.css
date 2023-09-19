@@ -86,8 +86,3 @@
     flex-direction: column;
   }
 }
-.bj {
-  @media (max-width: 302px) {
-    display: none;
-  }
-}
